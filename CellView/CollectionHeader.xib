@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionHeader" id="U6b-Vx-4bR" customClass="CollectionHeader">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FUk-S2-5K6">
+                    <rect key="frame" x="10" y="10" width="300" height="145"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="FUk-S2-5K6" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="10" id="7ro-OY-B7o"/>
+                <constraint firstAttribute="bottom" secondItem="FUk-S2-5K6" secondAttribute="bottom" constant="5" id="GZg-BI-Qsw"/>
+                <constraint firstItem="FUk-S2-5K6" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="10" id="TmW-ZN-fgn"/>
+                <constraint firstAttribute="trailing" secondItem="FUk-S2-5K6" secondAttribute="trailing" constant="10" id="nkq-mz-0Mh"/>
+            </constraints>
+            <connections>
+                <outlet property="headerImg" destination="FUk-S2-5K6" id="BJp-8K-mOY"/>
+            </connections>
+            <point key="canvasLocation" x="474" y="487"/>
+        </collectionReusableView>
+    </objects>
+</document>
